@@ -1,5 +1,8 @@
+// import
+
 import http from 'http';
 
+// declaration of port no
 const PORT: number = 3000;
 
 const server = http.createServer((req, res) => {
